@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[New driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[Maximise browser's window]]>
+    </line>
+    <line>
+      <![CDATA[Implicit wait applied on the driver for 20 seconds]]>
+    </line>
+    <line>
+      <![CDATA[Web application launched]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on Signup Button]]>
+    </line>
+    <line>
+      <![CDATA[User is Logged out and Application is closed | ]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on Signup Button]]>
+    </line>
+    <line>
+      <![CDATA[Email is passed to email field]]>
+    </line>
+  </reporter-output>
+  <suite name="com.project.Reporter.AppTest" duration-ms="21393" started-at="2017-04-05T10:39:27Z" finished-at="2017-04-05T10:39:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="21393" started-at="2017-04-05T10:39:27Z" finished-at="2017-04-05T10:39:48Z">
+      <class name="com.project.Reporter.AppTest">
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.project.Reporter.AppTest@13fee20c]" name="selectBrowser" is-config="true" duration-ms="13497" started-at="2017-04-05T16:09:27Z" finished-at="2017-04-05T16:09:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New driver instantiated]]>
+            </line>
+            <line>
+              <![CDATA[Maximise browser's window]]>
+            </line>
+            <line>
+              <![CDATA[Implicit wait applied on the driver for 20 seconds]]>
+            </line>
+            <line>
+              <![CDATA[Web application launched]]>
+            </line>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="checkValidLogin()[pri:0, instance:com.project.Reporter.AppTest@13fee20c]" name="checkValidLogin" duration-ms="131" started-at="2017-04-05T16:09:40Z" finished-at="2017-04-05T16:09:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click action performed on Login Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidLogin -->
+        <test-method status="PASS" signature="checkValidSignup()[pri:0, instance:com.project.Reporter.AppTest@13fee20c]" name="checkValidSignup" duration-ms="5304" started-at="2017-04-05T16:09:40Z" finished-at="2017-04-05T16:09:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click action performed on Signup Button]]>
+            </line>
+            <line>
+              <![CDATA[User is Logged out and Application is closed | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidSignup -->
+        <test-method status="PASS" signature="checkValidSignup1()[pri:0, instance:com.project.Reporter.AppTest@13fee20c]" name="checkValidSignup1" duration-ms="2229" started-at="2017-04-05T16:09:46Z" finished-at="2017-04-05T16:09:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click action performed on Signup Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidSignup1 -->
+        <test-method status="PASS" signature="checkValidUserid()[pri:0, instance:com.project.Reporter.AppTest@13fee20c]" name="checkValidUserid" duration-ms="219" started-at="2017-04-05T16:09:48Z" finished-at="2017-04-05T16:09:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Email is passed to email field]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidUserid -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.project.Reporter.AppTest@13fee20c]" name="verifyLogin" duration-ms="0" started-at="2017-04-05T16:09:48Z" finished-at="2017-04-05T16:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.project.Reporter.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.project.Reporter.AppTest -->
+</testng-results>

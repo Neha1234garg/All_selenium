@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.project.Reporter.AppTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.project.Reporter.AppTest">
+        <methods>
+          <include name="checkValidSignup"/>
+          <include name="checkValidLogin"/>
+          <include name="verifyLogin"/>
+          <include name="selectBrowser"/>
+        </methods>
+      </class> <!-- com.project.Reporter.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.project.Reporter.AppTest] -->

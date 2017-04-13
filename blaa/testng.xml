@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1" verbose="1">
+<listeners>
+		<!-- <listener class-name="com.project.Reporter.Listener"/> -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+
+	<test name="verifyLogin">
+		<classes>
+			<class name="com.project.Reporter.HomePageTest" />
+			<class name="com.project.Reporter.SignUpTest" />
+		</classes>
+	</test>
+</suite>
+

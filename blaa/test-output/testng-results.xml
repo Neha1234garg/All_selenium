@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[New driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[Maximise browser's window]]>
+    </line>
+    <line>
+      <![CDATA[Wait applied on the driver for 20 seconds]]>
+    </line>
+    <line>
+      <![CDATA[Url is passed]]>
+    </line>
+    <line>
+      <![CDATA[Web application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Element is Enable]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the signup click]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[values passed in user url link]]>
+    </line>
+    <line>
+      <![CDATA[Email is passed to email field]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on main Signup Button]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="22048" started-at="2017-04-13T05:16:52Z" finished-at="2017-04-13T05:17:14Z">
+    <groups>
+    </groups>
+    <test name="verifyLogin" duration-ms="22048" started-at="2017-04-13T05:16:52Z" finished-at="2017-04-13T05:17:14Z">
+      <class name="com.project.Reporter.HomePageTest">
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.project.Reporter.HomePageTest@6ebc05a6]" name="selectBrowser" is-config="true" duration-ms="12353" started-at="2017-04-13T10:46:52Z" finished-at="2017-04-13T10:47:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New driver instantiated]]>
+            </line>
+            <line>
+              <![CDATA[Maximise browser's window]]>
+            </line>
+            <line>
+              <![CDATA[Wait applied on the driver for 20 seconds]]>
+            </line>
+            <line>
+              <![CDATA[Url is passed]]>
+            </line>
+            <line>
+              <![CDATA[Web application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="homePageTesting()[pri:0, instance:com.project.Reporter.HomePageTest@6ebc05a6]" name="homePageTesting" duration-ms="179" started-at="2017-04-13T10:47:04Z" finished-at="2017-04-13T10:47:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Element is Enable]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTesting -->
+        <test-method status="PASS" signature="loginPageTesting()[pri:0, instance:com.project.Reporter.HomePageTest@6ebc05a6]" name="loginPageTesting" duration-ms="9037" started-at="2017-04-13T10:47:04Z" finished-at="2017-04-13T10:47:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for the signup click]]>
+            </line>
+            <line>
+              <![CDATA[Signup Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Signup Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTesting -->
+      </class> <!-- com.project.Reporter.HomePageTest -->
+      <class name="com.project.Reporter.SignUpTest">
+        <test-method status="PASS" signature="passingUserEmail()[pri:0, instance:com.project.Reporter.SignUpTest@6e0e048a]" name="passingUserEmail" duration-ms="241" started-at="2017-04-13T10:47:13Z" finished-at="2017-04-13T10:47:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Signup Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Signup Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Signup Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[values passed in user url link]]>
+            </line>
+            <line>
+              <![CDATA[Email is passed to email field]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- passingUserEmail -->
+        <test-method status="PASS" signature="validEmail()[pri:0, instance:com.project.Reporter.SignUpTest@6e0e048a]" name="validEmail" duration-ms="221" started-at="2017-04-13T10:47:14Z" depends-on-methods="com.project.Reporter.SignUpTest.passingUserEmail" finished-at="2017-04-13T10:47:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click action performed on main Signup Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+      </class> <!-- com.project.Reporter.SignUpTest -->
+    </test> <!-- verifyLogin -->
+  </suite> <!-- suite1 -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="verifyLogin(failed)">
+    <classes>
+      <class name="com.project.Reporter.SignUpTest">
+        <methods>
+          <include name="loginPageTesting"/>
+        </methods>
+      </class> <!-- com.project.Reporter.SignUpTest -->
+      <class name="com.project.Reporter.HomePageTest">
+        <methods>
+          <include name="selectBrowser"/>
+        </methods>
+      </class> <!-- com.project.Reporter.HomePageTest -->
+    </classes>
+  </test> <!-- verifyLogin(failed) -->
+</suite> <!-- Failed suite [suite1] -->
